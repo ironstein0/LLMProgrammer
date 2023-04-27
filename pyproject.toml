@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "llmprogrammer"
+version = "0.1.0"
+description = ""
+authors = ["ironstein0 <riyansh.karani.011235@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+langchain = { git = "https://www.github.com/hwchase17/langchain.git", tag = "v0.0.150" }
+
+python-dotenv = "^1.0.0"
+
+openai = "^0.27.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
